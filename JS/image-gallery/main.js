@@ -8,17 +8,20 @@ const overlay = document.querySelector('.overlay');
 const arr = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg'];
 
 /* Declaring the alternative text for each image file */
-const altArr = ['Closeup of a human eye', 
-                'pic2',
-                'Some purple flowers',
-                'Egyptian art',
-                'A butterfly'];
+// Declare a const object listing the alternative text for each image.
+const altObj = {
+    'pic1.jpg': 'Closeup of a human eye',
+    'pic2.jpg': 'pic2',
+    'pic3.jpg': 'Some purple flowers',
+    'pic4.jpg': 'Egyptian art',
+    'pic5.jpg': 'A butterfly'
+};
 
 /* Looping through images */
 for (let i = 0; i < arr.length; i++) {
     const newImage = document.createElement('img');
     newImage.setAttribute('src', 'images/' + arr[i]);
-    newImage.setAttribute('alt', altArr[i]);
+    newImage.setAttribute('alt', altObj[arr[i]]);
     thumbBar.appendChild(newImage);
     
     // Add a click event listener to each <img> inside 
