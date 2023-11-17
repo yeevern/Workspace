@@ -12,19 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  display: flex;
-  width: 1440px;
-  padding: 96px 0px;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
 }
-
-/* @media screen and (max-width:576px) {
-  #cards {
-      grid-template-columns: 1fr;
-  }
-} */
 
 h1 {
   text-align: center;
@@ -69,17 +57,10 @@ hr {
   margin-bottom: 24px;
 }
 
-#badge {
-  display: flex;
-  width: 970px;
-  flex-direction: column;
-  align-items: center;
-}
-
 #badge ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); 
   grid-gap: 24px;
   padding-left: 57px;
   padding-right: 57px;
@@ -97,10 +78,11 @@ h6 {
 
 #cardList img {
   width: 100%;
-  flex: 1 0 0;
+  height: 504;
   border-radius: 9px;
-  align-self: stretch;
   margin-bottom: 24px;
+  min-width: 118.7px;
+  min-height: 165.3px;
 }
 
 p {
