@@ -82,7 +82,7 @@ const card6 = new Card(
   At the beginning of your draw step, if Mana Vault is tapped, it deals 1 damage to you. 
   [Tap]: Add [C][C][C].`);
 
-var cards = [card1, card2, card3, card4, card5, card6];
+let cards = [card1, card2, card3, card4, card5, card6];
 globalThis.cards = cards;
 // create a function that loop through the card class and add the image to the badge
 function displayCards() {

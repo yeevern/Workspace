@@ -21,6 +21,7 @@ h1 {
   font-weight: 400;
   line-height: 68px; /* 113.333% */
   margin-top: 96px;
+  margin-bottom: 48px;
 }
 
 img.banner {
@@ -28,7 +29,7 @@ img.banner {
   width: 100%;
 }
 
-body {
+#card-container {
   padding-right: 235px;
   padding-left: 235px;
   margin-bottom: 96px;
