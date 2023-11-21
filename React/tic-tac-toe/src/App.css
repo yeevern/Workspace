@@ -57,7 +57,7 @@ body {
   padding: 0;
 }
 
-.board {
+.game-board {
   margin: 0 auto;
   width: 500px;
   height: 500px;
